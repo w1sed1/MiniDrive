@@ -1,0 +1,21 @@
+{
+  "name": "minidrive",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "server",
+    "desktop",
+    "web"
+  ],
+  "scripts": {
+    "server": "npm run dev -w server",
+    "web": "npm run dev -w web",
+    "desktop": "npm start -w desktop",
+    "build:web": "npm run build -w web",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}

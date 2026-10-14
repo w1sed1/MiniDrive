@@ -1,0 +1,19 @@
+{
+  "name": "@minidrive/desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MiniDrive — десктоп-клієнт (Electron)",
+  "type": "module",
+  "main": "src/main/main.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite build && node scripts/electron.js ."
+  },
+  "dependencies": {
+    "@minidrive/shared": "*"
+  },
+  "devDependencies": {
+    "electron": "^44.5.1",
+    "vite": "^8.3.3"
+  }
+}

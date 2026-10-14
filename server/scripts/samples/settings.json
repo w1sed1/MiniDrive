@@ -1,0 +1,4 @@
+{
+  "theme": "light",
+  "columns": ["name", "size", "updatedAt"]
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-renderer/
+server/data/
+.vercel/
+.env
+.DS_Store
